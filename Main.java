@@ -88,7 +88,7 @@ class Main {
             }
         }
         if (i < taskInput.length) {
-            throw new RuntimeException("Cycle. Startnode is :" + potentialCycleNode);
+            throw new RuntimeException("Cycle. Startnode is :" + potentialCycleNode.id);
 
         }
         return output;
